@@ -29,7 +29,7 @@ export const Nav = () => {
 
 
 
-<div className={`fixed bg-white   inset-0 ${isVisible}`}>
+<div className={`fixed bg-white z-10   inset-0 ${isVisible}`}>
 
 <nav  className='flex justify-between p-3 bg-black h-20'>
 <div className='flex items-center text-white' >Logo</div>
