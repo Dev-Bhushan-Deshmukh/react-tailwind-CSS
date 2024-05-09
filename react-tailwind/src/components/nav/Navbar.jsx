@@ -12,9 +12,9 @@ export const Nav = () => {
 
       <div className='flex items-center text-white ml-3' >Bhushan</div>
     
-    <div  className='hidden  md:flex justify-between items-center w-1/2  text-white p-2'>
-<Link to='about'>About</Link>
-<span  to=''>project</span>
+    <div  className='hidden  md:flex justify-between items-center w-1/2  text-white p-2 max-[947px]:text-xs min-[948px]:text-3xs'>
+<Link  to='about'>About</Link>
+<span  >project</span>
 <span  to=''>Skills</span>
 <span  to=''>Contact</span>
 <span className='text-orange-400'> <i className="fa-solid fa-phone"></i>+91-7350206770</span>
@@ -23,7 +23,7 @@ export const Nav = () => {
     </div>
     {/* <i className="fa-regular"></i> */}
   
-  <button className='hidden md:flex  h-2/5 border border-white-600 justify-between text-white rounded-[5px] bg-orange-400 gap-3 items-center p-3 mr-10'><i className="fa-solid fa-download"></i>Resume</button>
+  <button className='hidden md:flex  h-2/5 border border-white-600 justify-between text-white rounded-[5px] bg-orange-400 gap-3 items-center p-3 mr-10 max-[947px]:text-xs min-[948px]:text-3xs'><i className="fa-solid fa-download"></i>Resume</button>
     <div className='flex items-center text-white md:hidden p-2'   onClick={toggler} > <i className="fa-solid fa-bars"></i></div>
 
 
