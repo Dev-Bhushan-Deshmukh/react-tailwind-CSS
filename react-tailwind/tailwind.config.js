@@ -14,7 +14,8 @@ navcolor:'#1d1d24',
         highlighter:'#0a0d16',
         cardcolor:'#161636',
         bgcol:'#e9e9e9',
-        texthighlighter:'#9a17bf'
+        texthighlighter:'#9a17bf',
+        textLighter:'#727272'
       }
     },
   },

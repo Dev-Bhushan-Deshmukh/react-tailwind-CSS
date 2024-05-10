@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import profile from '../../assets/Rectangle 36.png'
 export const About = () => {
 let bgCOl;
     let journey=[
@@ -65,9 +65,16 @@ socialLink:true
   return (
     <div className=' h-full flex   items-center  flex-col overflow-y-scroll ' >
         <h1 className='text-orange-600 font-bold sm:text-1xl md:text-2xl'>About Me</h1> 
-      <div className=' bg-navcolor p-3 mt-4 h-1/3 flex-shrink-0  w-3/4  max-[445px]:w-full   md:w-3/4 md:rounded-2xl  '>
+      <div className=' bg-navcolor p-3 mt-4  h-4/5 max-[616px]:h-1/2 flex-shrink-0  w-full  flex-col min-[616px]:flex-row flex max-[445px]:w-full   md:w-full  items-center justify-center gap-3 '>
+    {/*  w-3/4  md:rounded-2xl */}
+      <img src={profile} alt="" className='object-cover h-1/3 sm:h-1/2    min-[642px]:h-1/2 '/>
 
-<h2 className='text-white font-semibold   max-[926px]:text-xs  md:text-1xl  '> 
+
+
+
+
+
+<h2 className='text-white font-semibold w-full min-[616px]:w-1/2  max-[926px]:text-xs  md:text-1xl  '> 
 India  based Software Engineer Freelancer skilled in React JS development and a MERN stack developer.Living in Pune Maharashtra-India
 Strategic and results-driven Computer Applications graduate boasting a prolific year in software engineering. Proficient in a robust skill set encompassing React.js,redux,redux toolkit, JavaScript, AngularJS, HTML, CSS, node js, Flask, Python, MongoDB, MySQL, Figma, Manual software testing, Postman API testing, python data analytics. Proactively seeking for a role of react js developer / full-stack development to contribute innovative solutions and excel in a dynamic, high-impact environment.
 

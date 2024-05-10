@@ -15,7 +15,7 @@ export const Nav = () => {
     <div  className='hidden  md:flex justify-between items-center w-1/2  text-white p-2 max-[947px]:text-xs min-[948px]:text-3xs'>
 <Link  to='about'>About</Link>
 <span  >project</span>
-<span  to=''>Skills</span>
+<Link  to='skills'>Skills</Link>
 <span  to=''>Contact</span>
 <span className='text-orange-400'> <i className="fa-solid fa-phone"></i>+91-7350206770</span>
 
