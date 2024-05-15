@@ -16,7 +16,7 @@ export const Nav = () => {
 <Link  to='about'>About</Link>
 <span  >project</span>
 <Link  to='skills'>Skills</Link>
-<span  to=''>Contact</span>
+<Link  to='contact'>Contact</Link>
 <span className='text-orange-400'> <i className="fa-solid fa-phone"></i>+91-7350206770</span>
 
 

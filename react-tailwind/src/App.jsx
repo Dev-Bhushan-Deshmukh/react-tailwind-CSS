@@ -5,6 +5,7 @@ import { Home } from "./components/pages/homepage/home"
 import { Section } from "./components/section/section"
 import { createBrowserRouter,RouterProvider } from "react-router-dom"
 import { Skills } from "./components/skills/skills"
+import { Contact } from "./components/contact/contact"
 
 function App() {
 let router=createBrowserRouter([
@@ -13,7 +14,7 @@ let router=createBrowserRouter([
 {path:'about',element:<About/>},
 {path:'project',},
 {path:'skills',element:<Skills/>},
-{path:'contact',}
+{path:'contact',element:<Contact/>}
 
 
 
